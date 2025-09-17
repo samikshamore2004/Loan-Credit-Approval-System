@@ -1,18 +1,42 @@
-# Salesforce DX Project: Next Steps
+###**Loan & Credit Approval System (Salesforce)**###
+**📌 Project Overview**
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+The Loan & Credit Approval System is a Salesforce-based application designed to digitize and streamline loan management for financial institutions.
 
-## How Do You Plan to Deploy Your Changes?
+**✅ Key Features:**
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+-Digital loan application submission
 
-## Configure Your Salesforce DX Project
+-Automated eligibility checks
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+-Multi-level approvals (Loan Officer → Branch Manager → Credit Manager)
 
-## Read All About It
+-EMI schedule generation
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+-Secure role-based access
+
+-Dashboards & reporting for portfolio monitoring
+
+This repository documents the step-by-step implementation journey of the project, aligned with Salesforce best practices.
+
+**🚀 Tech Stack**
+
+-Salesforce Platform (Developer Edition)
+
+-Apex (Triggers, Queueables, Services)
+
+-Lightning Web Components (LWC)
+
+-Flows & Approval Processes
+
+-Reports & Dashboards
+
+**📂 Repository Contents**
+
+📘 Documentation of completed phases (1–3)
+
+⚙️ Org configuration details (profiles, roles, OWD, sharing rules)
+
+🗂️ Data model specifications (custom objects, fields, relationships)
+
+📝 Step-by-step Salesforce setup guide
