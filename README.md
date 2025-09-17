@@ -1,4 +1,4 @@
-##**Loan & Credit Approval System (Salesforce)**
+### Loan & Credit Approval System (Salesforce)
 **📌 Project Overview**
 
 The Loan & Credit Approval System is a Salesforce-based application designed to digitize and streamline loan management for financial institutions.
