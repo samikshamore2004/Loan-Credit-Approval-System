@@ -5,31 +5,31 @@ The Loan & Credit Approval System is a Salesforce-based application designed to 
 
 **✅ Key Features:**
 
--Digital loan application submission
+* Digital loan application submission
 
--Automated eligibility checks
+* Automated eligibility checks
 
--Multi-level approvals (Loan Officer → Branch Manager → Credit Manager)
+* Multi-level approvals (Loan Officer → Branch Manager → Credit Manager)
 
--EMI schedule generation
+* EMI schedule generation
 
--Secure role-based access
+* Secure role-based access
 
--Dashboards & reporting for portfolio monitoring
+* Dashboards & reporting for portfolio monitoring
 
 This repository documents the step-by-step implementation journey of the project, aligned with Salesforce best practices.
 
 **🚀 Tech Stack**
 
--Salesforce Platform (Developer Edition)
+* Salesforce Platform (Developer Edition)
 
--Apex (Triggers, Queueables, Services)
+* Apex (Triggers, Queueables, Services)
 
--Lightning Web Components (LWC)
+* Lightning Web Components (LWC)
 
--Flows & Approval Processes
+* Flows & Approval Processes
 
--Reports & Dashboards
+* Reports & Dashboards
 
 **📂 Repository Contents**
 
