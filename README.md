@@ -1,4 +1,4 @@
-# 📄 [Report Document](Project Title_Loan & Credit Approval System(1).pdf)
+# [Report Document ](Project Title_Loan & Credit Approval(1).pdf)
 ### Loan & Credit Approval System (Salesforce)
 **📌 Project Overview**
 
