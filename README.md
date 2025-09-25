@@ -1,4 +1,4 @@
-[View Project PDF]()
+[View Project PDF](Project Title_Loan & Credit Approval System (2).pdf)
 # 💰Loan & Credit Approval System (Salesforce)
 
 ## 📌Overview
