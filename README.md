@@ -1,6 +1,6 @@
-# Loan & Credit Approval System (Salesforce)
+# 💰Loan & Credit Approval System (Salesforce)
 
-## Overview
+## 📌Overview
 
 This Salesforce based project automates the end-to-end loan approval process for a financial institution. It simplifies loan application handling, calculates EMIs, flags risky loans, and provides an intuitive user interface for both loan officers and managers.
 
@@ -9,7 +9,7 @@ The system combines Salesforce declarative tools (Flows, Validation Rules, Proce
 
 ---
 
-## Key Features
+## ✨ Key Features
 
 - **Loan EMI Calculation:** Automatic calculation of monthly EMI based on loan amount, interest rate, and tenure using Apex.
   
@@ -33,7 +33,7 @@ The system combines Salesforce declarative tools (Flows, Validation Rules, Proce
 
 ---
 
-## Salesforce Components Included
+## 🧩 Salesforce Components Included
 
 - **Objects**: Loan_Application__c, Loan_Product__c, Payment__c, Credit_Check__c, and others.
 - **Layouts**: Custom layouts for each object and user profile.
@@ -49,7 +49,7 @@ The system combines Salesforce declarative tools (Flows, Validation Rules, Proce
 
 ---
 
-## Usage
+## 🚀 Usage
 1. Open the Salesforce Org.
 2. Navigate to the Loan & Credit Approval App.
 3. Create a new loan application. Fields like EMI and approval date will populate automatically.
@@ -58,7 +58,10 @@ The system combines Salesforce declarative tools (Flows, Validation Rules, Proce
 6. Reports and dashboard provide insights into loan status and approvals.
 
 ---
-## Tech Stack
--Salesforce Platform (Lightning, Apex, Flows, Validation Rules, Process Builder)
--Lightning Web Components (LWC)
--VS Code with Salesforce SFDX for development and metadata deployment
+## 🛠️ Tech Stack
+- Salesforce Platform (Lightning, Apex, Flows, Validation Rules, Process Builder)
+- Lightning Web Components (LWC)
+- VS Code with Salesforce SFDX for development and metadata deployment
+---
+## 👤 Author
+- Samiksha More
