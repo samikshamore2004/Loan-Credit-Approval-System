@@ -1,4 +1,4 @@
-[View Project PDF](https://github.com/samikshamore2004/Loan-Credit-Approval-System/blob/main/Project%20Title_Loan%20%26%20Credit%20Approval%20System%20(2).pdf)
+[View Project PDF]()
 # 💰Loan & Credit Approval System (Salesforce)
 
 ## 📌Overview
