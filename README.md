@@ -29,7 +29,7 @@ The system combines Salesforce declarative tools (Flows, Validation Rules, Proce
 -Reports created for loan pipelines, portfolio by type, approval times, and delinquent payments.
 -Loan Management Dashboard consolidates all key reports.
 
-- **Duplicate Management:s** Matching rules and duplicate rules implemented to prevent duplicate contact records.
+- **Duplicate Management:** Matching rules and duplicate rules implemented to prevent duplicate contact records.
 
 ---
 
@@ -38,14 +38,13 @@ The system combines Salesforce declarative tools (Flows, Validation Rules, Proce
 - **Objects**: Loan_Application__c, Loan_Product__c, Payment__c, Credit_Check__c, and others.
 - **Layouts**: Custom layouts for each object and user profile.
 - **Profiles & Permission Sets**: Access management for different roles (Loan Officer, Branch Manager, Admin, etc.).
-- **Apex Classes & Triggers**: EMI_Calculation – Calculates monthly EMI.
-LoanRiskHandler – Flags risky loans.
+- **Apex Classes & Triggers**: EMI_Calculation – Calculates monthly EMI. LoanRiskHandler – Flags risky loans.
 - **Reports & Dashboards**: Ready-to-use reports and dashboards for loan monitoring.
 - **Flows:** Auto-fill EMI and approval dates.
 
--**Validation & Workflow Rules:** Ensure data integrity and automate notifications.
+- **Validation & Workflow Rules:** Ensure data integrity and automate notifications.
 
--**Lightning Web Components:** Display record-specific loan information dynamically.
+- **Lightning Web Components:** Display record-specific loan information dynamically.
 - **VS Code Project Files**: Salesforce DX project structure with metadata, config files, and scripts.
 
 ---
@@ -59,7 +58,7 @@ LoanRiskHandler – Flags risky loans.
 6. Reports and dashboard provide insights into loan status and approvals.
 
 ---
-##Tech Stack
+## Tech Stack
 -Salesforce Platform (Lightning, Apex, Flows, Validation Rules, Process Builder)
 -Lightning Web Components (LWC)
 -VS Code with Salesforce SFDX for development and metadata deployment
