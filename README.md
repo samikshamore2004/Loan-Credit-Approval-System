@@ -2,26 +2,34 @@
 
 ## Overview
 
-The **Loan & Credit Approval System** is a comprehensive Salesforce-based solution designed to manage the entire loan lifecycle—from application to disbursement and repayment. It automates key processes, reduces manual effort, and provides managers with real-time insights to make data-driven lending decisions.
+This Salesforce based project automates the end-to-end loan approval process for a financial institution. It simplifies loan application handling, calculates EMIs, flags risky loans, and provides an intuitive user interface for both loan officers and managers.
 
-Applicants can submit requests online, after which the system automatically:
-- Verifies applicant details
-- Checks credit history
-- Evaluates eligibility based on predefined loan product rules
+The system combines Salesforce declarative tools (Flows, Validation Rules, Process Builder, Workflow Rules) with Apex programming and Lightning Web Components to ensure efficiency, accuracy, and a user-friendly experience.
 
-Approved applications are routed through a defined **approval workflow**, and the system tracks disbursement schedules, repayments, and associated financial transactions. Managers can access **dashboards and reports** to analyze loan approvals, financial risks, and customer insights.
 
 ---
 
 ## Key Features
 
-- **Automated Loan Evaluation**: Calculates eligibility, credit checks, and EMI automatically.
-- **Approval Workflows**: Configurable approval processes for different loan types and roles.
-- **Comprehensive Object Model**: Includes Loan Application, Loan Product, Payment, Credit Check, and other Salesforce objects.
-- **Reports & Dashboards**: Visual insights for managers to monitor loan trends, approvals, and risks.
-- **Custom Layouts & Profiles**: Role-specific page layouts and permissions to ensure secure data access.
-- **Triggers & Apex Classes**: Automates processes like EMI calculation and status updates.
-- **Validation Rules**: Ensures data accuracy and enforces business rules.
+- **Loan EMI Calculation:** Automatic calculation of monthly EMI based on loan amount, interest rate, and tenure using Apex.
+  
+- **Risk Management:** Flags risky loans based on amount and credit score and updates the Eligibility Result field.
+  
+- **Process Automation:** 
+-Validation rules to enforce correct loan details.
+-Workflow rules and process builder to trigger notifications and auto-reject loans under certain conditions.
+-Flows to auto-populate EMI and approval dates.
+
+- **User Interface:**
+- Custom Lightning App: Loan & Credit Approval App.
+-Customized record pages for Loan Applications showing EMI, Risky Flags, and related payments or credit checks.
+-Custom tabs for all key objects: Loan Application, Payment, Credit Check, Loan Product.
+
+- **Reporting & Dashboards:** 
+-Reports created for loan pipelines, portfolio by type, approval times, and delinquent payments.
+-Loan Management Dashboard consolidates all key reports.
+
+- **Duplicate Management:s** Matching rules and duplicate rules implemented to prevent duplicate contact records.
 
 ---
 
@@ -30,11 +38,28 @@ Approved applications are routed through a defined **approval workflow**, and th
 - **Objects**: Loan_Application__c, Loan_Product__c, Payment__c, Credit_Check__c, and others.
 - **Layouts**: Custom layouts for each object and user profile.
 - **Profiles & Permission Sets**: Access management for different roles (Loan Officer, Branch Manager, Admin, etc.).
-- **Apex Classes & Triggers**: Automations for calculations, updates, and notifications.
+- **Apex Classes & Triggers**: EMI_Calculation – Calculates monthly EMI.
+LoanRiskHandler – Flags risky loans.
 - **Reports & Dashboards**: Ready-to-use reports and dashboards for loan monitoring.
+- **Flows:** Auto-fill EMI and approval dates.
+
+-**Validation & Workflow Rules:** Ensure data integrity and automate notifications.
+
+-**Lightning Web Components:** Display record-specific loan information dynamically.
 - **VS Code Project Files**: Salesforce DX project structure with metadata, config files, and scripts.
 
 ---
 
-## Project Structure
+## Usage
+1. Open the Salesforce Org.
+2. Navigate to the Loan & Credit Approval App.
+3. Create a new loan application. Fields like EMI and approval date will populate automatically.
+4. Risky loans will be flagged in the Eligibility Result field.
+5. Managers can view related payments and credit checks on the record page.
+6. Reports and dashboard provide insights into loan status and approvals.
 
+---
+##Tech Stack
+-Salesforce Platform (Lightning, Apex, Flows, Validation Rules, Process Builder)
+-Lightning Web Components (LWC)
+-VS Code with Salesforce SFDX for development and metadata deployment
