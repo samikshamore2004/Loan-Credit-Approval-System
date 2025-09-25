@@ -1,18 +1,40 @@
-# Salesforce DX Project: Next Steps
+# Loan & Credit Approval System (Salesforce)
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## Overview
 
-## How Do You Plan to Deploy Your Changes?
+The **Loan & Credit Approval System** is a comprehensive Salesforce-based solution designed to manage the entire loan lifecycle—from application to disbursement and repayment. It automates key processes, reduces manual effort, and provides managers with real-time insights to make data-driven lending decisions.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+Applicants can submit requests online, after which the system automatically:
+- Verifies applicant details
+- Checks credit history
+- Evaluates eligibility based on predefined loan product rules
 
-## Configure Your Salesforce DX Project
+Approved applications are routed through a defined **approval workflow**, and the system tracks disbursement schedules, repayments, and associated financial transactions. Managers can access **dashboards and reports** to analyze loan approvals, financial risks, and customer insights.
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+---
 
-## Read All About It
+## Key Features
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+- **Automated Loan Evaluation**: Calculates eligibility, credit checks, and EMI automatically.
+- **Approval Workflows**: Configurable approval processes for different loan types and roles.
+- **Comprehensive Object Model**: Includes Loan Application, Loan Product, Payment, Credit Check, and other Salesforce objects.
+- **Reports & Dashboards**: Visual insights for managers to monitor loan trends, approvals, and risks.
+- **Custom Layouts & Profiles**: Role-specific page layouts and permissions to ensure secure data access.
+- **Triggers & Apex Classes**: Automates processes like EMI calculation and status updates.
+- **Validation Rules**: Ensures data accuracy and enforces business rules.
+
+---
+
+## Salesforce Components Included
+
+- **Objects**: Loan_Application__c, Loan_Product__c, Payment__c, Credit_Check__c, and others.
+- **Layouts**: Custom layouts for each object and user profile.
+- **Profiles & Permission Sets**: Access management for different roles (Loan Officer, Branch Manager, Admin, etc.).
+- **Apex Classes & Triggers**: Automations for calculations, updates, and notifications.
+- **Reports & Dashboards**: Ready-to-use reports and dashboards for loan monitoring.
+- **VS Code Project Files**: Salesforce DX project structure with metadata, config files, and scripts.
+
+---
+
+## Project Structure
+
